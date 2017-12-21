@@ -1,0 +1,12 @@
+var *a,*b;
+main()
+{
+	a=b;
+	a=&b;
+	a=*b;
+	*a=b;
+	*a=*b;
+	*a=&b;
+	return *a;
+}
+
